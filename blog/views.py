@@ -6,7 +6,7 @@ from django.urls import reverse_lazy
 
 
 class PostListView(ListView):
-    model: Post
+    model = Post
 
 
 class PostCreateView(CreateView):
